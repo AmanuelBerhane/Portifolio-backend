@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  institution: MyString
+  date_given: 2026-06-03
+  certification_url: MyString
+  certificate_image: MyString
+  certificate_pdf: MyString
+
+two:
+  name: MyString
+  institution: MyString
+  date_given: 2026-06-03
+  certification_url: MyString
+  certificate_image: MyString
+  certificate_pdf: MyString
