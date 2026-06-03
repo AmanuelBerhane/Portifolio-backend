@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  institution: MyString
+  qualification_type: MyString
+  field_of_study: MyString
+  started_at: 2026-06-03
+  ended_at: 2026-06-03
+  grade: MyString
+  description: MyText
+
+two:
+  institution: MyString
+  qualification_type: MyString
+  field_of_study: MyString
+  started_at: 2026-06-03
+  ended_at: 2026-06-03
+  grade: MyString
+  description: MyText
