@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :admins
   resources :educations
   resources :social_links
   resources :experiences
