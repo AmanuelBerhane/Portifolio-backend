@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :admins
+  devise_for :admins, controllers: { sessions: 'admins/sessions' }
+  devise_scope :admin do
+    get 'admins/current', to: 'admins/sessions#show'
+  end
   resources :educations
   resources :social_links
   resources :experiences
